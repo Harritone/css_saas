@@ -1,6 +1,6 @@
 .section-about {
   background-color: $color-grey-light-1;
-  padding: 35rem 0;
+  padding: 25rem 0;
   margin-top: -20vh;
 }
 
@@ -20,4 +20,11 @@
   transform: skewY(7deg); 
 
   }
+}
+
+.section-tours {
+  background-color: $color-grey-light-1;
+  padding: 25rem 0 50rem 0;
+  margin-top: -11rem;
+
 }
