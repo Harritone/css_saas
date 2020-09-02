@@ -48,11 +48,11 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 2px;
-  transition: all .2s;
-  &:hover {
-    transform: skewY(2deg) skewX(20deg) scale(1.1);
-    text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
-  }
+  //transition: all .2s;
+  //&:hover {
+  //  transform: skewY(2deg) skewX(20deg) scale(1.1);
+  //  text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+  //}
 }
 
 .heading-tertiary {
