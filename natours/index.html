@@ -70,9 +70,29 @@
           </div>
           <div class="col-1-of-2">
             <div class="composition">
+
+            <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+                 sizes="(max-width: 900px)20vw, (max-width: 600px) 30vw, 300px"
+                 alt="Photo 1"
+                 class="composition__photo composition__photo--p1"
+                 src="img/nat-1-large.jpg">
+
+            <img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+                 sizes="(max-width: 900px)20vw, (max-width: 600px) 30vw, 300px"
+                 alt="Photo 2"
+                 class="composition__photo composition__photo--p2"
+                 src="img/nat-2-large.jpg">
+
+            <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+                 sizes="(max-width: 900px)20vw, (max-width: 600px) 30vw, 300px"
+                 alt="Photo 3"
+                 class="composition__photo composition__photo--p3"
+                 src="img/nat-3-large.jpg">
+            <!--
               <img class="composition__photo composition__photo--p1" src="img/nat-1-large.jpg" alt="Photo 1">
               <img class="composition__photo composition__photo--p2" src="img/nat-2-large.jpg" alt="Photo 2">
               <img class="composition__photo composition__photo--p3" src="img/nat-3-large.jpg" alt="Photo 3">
+            -->
             </div>
           </div>
         </div>
@@ -260,7 +280,12 @@
         <div class="row">
           <div class="story">
             <figure class="story__shape">
-              <img src="img/nat-8.jpg" alt="Person on atour" class="story__img">
+            <img srcset="img/nat-8-small.jpg 300w, img/nat-8.jpg 1000w"
+                 sizes="(max-width: 900px)20vw, (max-width: 600px) 30vw, 300px"
+                 alt="Person on a tour"
+                 class="story__img"
+                 src="img/nat-8.jpg">
+            <!-- <img src="img/nat-8.jpg" alt="Person on atour" class="story__img"> -->
               <figcaption class="story__caption">Kate Nilova</figcaption>
             </figure>
 
@@ -276,7 +301,12 @@
         <div class="row">
           <div class="story">
             <figure class="story__shape">
-              <img src="img/nat-9.jpg" alt="Person on atour" class="story__img">
+            <img srcset="img/nat-9-small.jpg 300w, img/nat-9.jpg 1000w"
+                 sizes="(max-width: 900px)20vw, (max-width: 600px) 30vw, 300px"
+                 alt="Person on a tour"
+                 class="story__img"
+                 src="img/nat.jpg">
+            <!-- <img src="img/nat-9.jpg" alt="Person on atour" class="story__img"> -->
               <figcaption class="story__caption">ALex Osipov</figcaption>
             </figure>
 
@@ -344,7 +374,7 @@
 
         <picture class="footer__logo">
         <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" media="(max-width: 37.5rem)">
-        <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Fool Logo"> 
+        <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Fool Logo" src=" img/logo-green-2x.png 2x">
         </picture>
 
       </div>
@@ -368,19 +398,31 @@
       </div>
     </footer>
     <div class="popup" id="popup">
-     <div class="popup__content">
-       <div class="popup__left">
-         <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
-         <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
-       </div>
+      <div class="popup__content">
+        <div class="popup__left">
+          <img srcset="img/nat-8-small.jpg 300w, img/nat-8.jpg 1000w"
+               sizes="(max-width: 900px)20vw, (max-width: 600px) 30vw, 300px"
+               alt="Tour photo"
+               class="popup__img"
+               src="img/nat-8.jpg">
+          <img srcset="img/nat-9-small.jpg 300w, img/nat-9.jpg 1000w"
+               sizes="(max-width: 900px)20vw, (max-width: 600px) 30vw, 300px"
+               alt="Tour photo"
+               class="popup__img"
+               src="img/nat-9.jpg">
+          <!--
+            <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+            <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+          -->
+        </div>
 
-       <div class="popup__right">
-         <a class="popup__close" href="#section-tours">&times;</a>
-         <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
-         <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
-         <p lang="en" class="popup__text">Dolor quod laudantium commodi atque asperiores illo quidem iure. Provident error numquam hic rerum voluptas Corrupti itaque neque beatae debitis repellendus. Ducimus sint porro cum sapiente nam quam Itaque aliquid repellat nam cupiditate magnam! Architecto magni unde voluptatum culpa molestiae Vero harum quis consectetur molestias itaque Nesciunt pariatur ratione molestiae cumque vel, minus. Enim sed nisi aliquid aliquid a quas. Amet itaque vel similique voluptatibus soluta magni inventore iure? Iure architecto sint nesciunt excepturi saepe voluptatum? Doloribus libero ut asperiores tenetur ducimus dolor Iure aperiam at</p>
-         <a class="btn btn--green" href="#">Book now</a>
-       </div>
+        <div class="popup__right">
+          <a class="popup__close" href="#section-tours">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+          <p lang="en" class="popup__text">Dolor quod laudantium commodi atque asperiores illo quidem iure. Provident error numquam hic rerum voluptas Corrupti itaque neque beatae debitis repellendus. Ducimus sint porro cum sapiente nam quam Itaque aliquid repellat nam cupiditate magnam! Architecto magni unde voluptatum culpa molestiae Vero harum quis consectetur molestias itaque Nesciunt pariatur ratione molestiae cumque vel, minus. Enim sed nisi aliquid aliquid a quas. Amet itaque vel similique voluptatibus soluta magni inventore iure? Iure architecto sint nesciunt excepturi saepe voluptatum? Doloribus libero ut asperiores tenetur ducimus dolor Iure aperiam at</p>
+          <a class="btn btn--green" href="#">Book now</a>
+        </div>
       </div>
     </div>
     <!--
