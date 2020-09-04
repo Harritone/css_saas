@@ -12,6 +12,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 3px;
     overflow: hidden;
@@ -61,15 +62,26 @@
 
 
     &--1 {
+      background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../img/nat-5-small.jpg);
+  @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
       background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), url(../img/nat-5.jpg);
+  }
     }
 
     &--2 {
+      background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../img/nat-6-small.jpg);
+
+      @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
       background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../img/nat-6.jpg);
+      }
     }
 
     &--3 {
+      background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../img/nat-7-small.jpg);
+
+      @media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 125em) {
       background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), url(../img/nat-7.jpg);
+      }
     }
   }
 
@@ -148,8 +160,8 @@
   }
 
   &__price-only {
-   font-size: 1.4rem;
-   text-transform: uppercase;
+    font-size: 1.4rem;
+    text-transform: uppercase;
   }
 
   &__price-value {
