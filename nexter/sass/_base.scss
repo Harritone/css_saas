@@ -24,7 +24,7 @@ $font-display: 'Josefin Sans', sans-serif;
 
 html {
   box-sizing: border-box;
-  font-sie: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
@@ -32,4 +32,9 @@ body {
   color: $color-grey-dark-1;
   font-weight: 300;
   line-height: 1.6;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
 }
